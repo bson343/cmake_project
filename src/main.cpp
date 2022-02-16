@@ -1,5 +1,7 @@
 #include <iostream>
+#include <spdlog/spdlog.h>
 
 int main() {
-	std::cout << "hello world" << std::endl;
+	SPDLOG_INFO("Hello, world!");
+	return 0;
 }
